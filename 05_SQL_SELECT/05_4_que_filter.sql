@@ -12,6 +12,7 @@
 -- Scharfe Suche
 
 SELECT
+    id,
 	ticker AS "SYM",
     c_name AS "Unternehmen",
 	price AS "Kurs ($)",
@@ -19,6 +20,11 @@ SELECT
     dividend AS "Dividende",
 	CONCAT(sector, " | ", industry) AS "Operations"
 FROM stocks.ccc
+
+-- Einzeldaten / Strings / numerisch
+#WHERE sector = "Communication Services" -- spez. Sektor
+#WHERE industry = "Media" -- spez. Branche
+#WHERE payouts = 12 -- Wer zahlt monatlich?
 
 -- Begrenzung
 LIMIT 20
