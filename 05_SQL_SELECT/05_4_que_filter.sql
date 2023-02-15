@@ -24,11 +24,11 @@ FROM stocks.ccc
 -- Einzeldaten / Strings / numerisch
 #WHERE sector = "Communication Services" -- spez. Sektor
 #WHERE industry = "Media" -- spez. Branche
-WHERE payouts = 12 -- Wer zahlt monatlich?
+WHERE payouts = 1 -- Wer zahlt monatlich?
 
 -- Sortierung
-ORDER BY industry DESC 
-#ORDER BY price DESC 
+#ORDER BY industry DESC 
+ORDER BY price DESC 
 
 -- Begrenzung
 LIMIT 20
