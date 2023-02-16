@@ -37,7 +37,7 @@ SELECT
 FROM stocks.ccc
 ;
 */
-
+/**/
 -- Wieviele VERSCHIEDENE Branchen gibt es 
 -- in den jeweiligen Industriesektoren?
 SELECT

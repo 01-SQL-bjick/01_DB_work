@@ -23,14 +23,14 @@ LIMIT 50
 */
 
 -- welche VERSCHIEDENEN Branchen gibt es?
-/**/
+/*
 SELECT
     DISTINCT industry Branchen
 FROM stocks.ccc
 #ORDER BY industry ASC
 ORDER BY Branchen DESC
 ;
-
+*/
 
 -- welche VERSCHIEDENEN Auszahlungs-Rhythmen gibt es?
 /*
