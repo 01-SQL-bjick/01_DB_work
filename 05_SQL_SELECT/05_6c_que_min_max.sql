@@ -2,13 +2,13 @@
 
 -- Preis der teuersten/günstigsten Aktie?
 
-/*
+/**/
 SELECT
     #MAX(price) AS "Max. Preis"
     MIN(price) AS "Min. Preis"
 FROM stocks.ccc
 ;
-*/
+
 
 -- WELCHE Aktie ist am teuersten/günstigsten ?
 -- 1. Subquery
@@ -48,11 +48,11 @@ SELECT
     c_name AS Unternehmen,
     price Aktienkurs    
 FROM stocks.ccc
-*/
+
 ORDER BY no_yrs DESC
 LIMIT 1
 ;
-
+*/
 
 
 
